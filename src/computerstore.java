@@ -28,6 +28,7 @@ public class computerstore {
             product[i].setStockQuantity(product[i].getStockQuantity()-quantities[i]);
         }
     }
+    ojoijoo1
 
     public void changeOrderStatus(int orderId, String newStatus) {
         orders.get(orderId).setStatus(newStatus);
